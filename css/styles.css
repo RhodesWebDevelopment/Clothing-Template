@@ -1,0 +1,49 @@
+header, section{
+	display: table;
+	width: 100%;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+.btn:hover{background-color: rgba(0, 0, 0, 0.0);}
+
+header div.container-fluid, section div{display: table-cell; text-align: center; vertical-align: middle;}
+
+header{height: 90vh; background-image: url("../img/headerbg.jpg");}
+header #headerWrapper{border: 2em solid #fff; margin: 0 20%; padding: 4em 0;}
+
+section{height: 80vh;}
+section h3{font-size: 3rem;}
+section .btn{font-size: 1.3rem;}
+#section1{background-image: url("../img/section1.jpg");}
+#section2{background-image: url("../img/section2.jpg");}
+#section3{background-image: url("../img/section3.jpg");}
+
+
+footer{
+	height: auto;
+	padding: 1em;
+	background-color: #3a3a3a;
+	color: #fff;
+	text-align: center;
+}
+
+#footerNav{text-align: justify; margin-top: 2em;}
+#footerNav #footerNavLeft{border-right: 3px solid #fff;}
+#footerNav li.footerNavItem{list-style: none;}
+#footerNav li.footerNavItem a{color: #fff;}
+#footerNav .footerNavIndented{}
+
+#footerNav .row:last-child{margin-top: 2em;}
+#footerNav .row:last-child form{float: right;}
+
+
+@media screen and (max-width: 768px){
+	header, section{background-size: cover; background-position: center;}
+	header #headerWrapper{margin: 0;}
+	
+}
+
+@media screen and (max-width: 450px){
+	
+}
